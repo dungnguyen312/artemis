@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/artemis/static/css/main.f5c85ae4.chunk.css",
-    "main.js": "/artemis/static/js/main.a1072ef7.chunk.js",
-    "main.js.map": "/artemis/static/js/main.a1072ef7.chunk.js.map",
+    "main.css": "/artemis/static/css/main.eefd2718.chunk.css",
+    "main.js": "/artemis/static/js/main.efabd434.chunk.js",
+    "main.js.map": "/artemis/static/js/main.efabd434.chunk.js.map",
     "runtime-main.js": "/artemis/static/js/runtime-main.402a4bf3.js",
     "runtime-main.js.map": "/artemis/static/js/runtime-main.402a4bf3.js.map",
     "static/js/2.c46143a3.chunk.js": "/artemis/static/js/2.c46143a3.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.2961c8bc.chunk.js": "/artemis/static/js/3.2961c8bc.chunk.js",
     "static/js/3.2961c8bc.chunk.js.map": "/artemis/static/js/3.2961c8bc.chunk.js.map",
     "index.html": "/artemis/index.html",
-    "static/css/main.f5c85ae4.chunk.css.map": "/artemis/static/css/main.f5c85ae4.chunk.css.map",
+    "static/css/main.eefd2718.chunk.css.map": "/artemis/static/css/main.eefd2718.chunk.css.map",
     "static/js/2.c46143a3.chunk.js.LICENSE.txt": "/artemis/static/js/2.c46143a3.chunk.js.LICENSE.txt",
     "static/media/artemis.6dc4ca26.png": "/artemis/static/media/artemis.6dc4ca26.png"
   },
   "entrypoints": [
     "static/js/runtime-main.402a4bf3.js",
     "static/js/2.c46143a3.chunk.js",
-    "static/css/main.f5c85ae4.chunk.css",
-    "static/js/main.a1072ef7.chunk.js"
+    "static/css/main.eefd2718.chunk.css",
+    "static/js/main.efabd434.chunk.js"
   ]
 }
