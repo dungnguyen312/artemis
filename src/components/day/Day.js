@@ -16,17 +16,17 @@ class Day extends React.Component {
       6: "SAT",
       0: "SUN",
     };
-    let contentClassName = "calendar__content";
-    if (this.props.date === new Date()) {
-      contentClassName += " calendar__today";
+    let dateClassName = "calendar__day";
+    if (this.props.date === new Date().getDate()) {
+      dateClassName += " calendar__today";
     }
     return (
       <div className="calendar__body">
         <div className="calendar__day">
           {DAYS_OF_THE_WEEK[this.props.daysOfWeek]}
         </div>
-        <div key={this.props.date} className={contentClassName}>
-          <span className="calendar__day">{this.props.date}</span>
+        <div key={this.props.date} className="calendar__content">
+          <span className={dateClassName}>{this.props.date}</span>
           {this.props.child}
         </div>
       </div>
