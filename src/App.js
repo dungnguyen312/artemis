@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div>
-      <h1>Bookkeeper</h1>
+      <h1>Coin & Me</h1>
       <nav
         style={{
-          borderBottom: "solid 1px",
+          borderBottom: "solid 1px pink",
           paddingBottom: "1rem",
         }}
       >
-        <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
+        <Link to="/currencies">Currency</Link> | <Outlet />
       </nav>
     </div>
   );
