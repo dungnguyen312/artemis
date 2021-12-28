@@ -1,0 +1,19 @@
+@import "../../assets/variables";
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+}
+.logo-container {
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+
+}

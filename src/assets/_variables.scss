@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Defining the theme for the card: colors, fonts, spacing. */
+:root {
+  /* The color for your background and background pattern */
+  --background: #F3F0D7;
+  --background-decor: #DBD0C0;
+  --primary-color: #FFC0CB;
+  --sencond-color: #5A57CB;
+;
+
+  /* Colors for the elements on your page */
+  --banner-bg: #1C0C5B;
+  --banner-txt: white;
+
+  /* Message area colors */
+  --message-bg: #F1EDE9;
+  --message-line: #94ACD4;
+  --message-txt: #333333;
+
+  /* Fonts */
+  --font-banner: 'Abril Fatface', cursive;
+  --font-text: 'Shadows Into Light', cursive;
+
+  /* Space and other details */
+  --space: 16px;
+  --space-xsm: 4px;
+  --space-sm: 8px;
+  --space-lg: 24px;
+  --space-xlg: 48px;
+}
